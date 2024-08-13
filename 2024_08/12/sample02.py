@@ -24,8 +24,8 @@ def main():
 	ax.set_xlim([-1, 10])
 	ax.set_ylim([-1, 10])
 
-	ax.set_xticks(np.arange(0, 10, 1), np.arange(0, 10, 1))
-	ax.set_yticks(np.arange(0, 10, 1), np.arange(0, 10, 1))
+	ax.set_xticks(np.arange(0, 10, 1), np.arange(1, 11, 1))
+	ax.set_yticks(np.arange(0, 10, 1), np.arange(1, 11, 1))
 
 
 	#
