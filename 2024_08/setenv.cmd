@@ -1,0 +1,1 @@
+SET PATH=C:\Users\hopst\AppData\Local\Programs\Python\Python311;%PATH%
