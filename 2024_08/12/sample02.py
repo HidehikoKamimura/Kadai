@@ -24,6 +24,10 @@ def main():
 	ax.set_xlim([-1, 10])
 	ax.set_ylim([-1, 10])
 
+	ax.set_xticks(np.arange(0, 10, 1), np.arange(0, 10, 1))
+	ax.set_yticks(np.arange(0, 10, 1), np.arange(0, 10, 1))
+
+
 	#
 	# draw routes
 	#
@@ -81,7 +85,8 @@ def main():
 	if start_end_np.shape[1] > 0 :
 		for nd in start_end_np:
 			ax.scatter(nd[:, 0], nd[:, 1], marker="o", c='blue')
-
+			ax.annotate('start', xy = (nd[0][0]-0.5, nd[0][1]-0.5))
+			ax.annotate('end', xy = (nd[1][0], nd[1][1]+0.2))
 
 	plt.show()
 
