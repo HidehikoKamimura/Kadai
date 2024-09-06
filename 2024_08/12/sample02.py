@@ -33,17 +33,67 @@ def main():
 	#
 	route_np = ReadGraphFile('./path.txt')
 
-	for poly in route_np:
+	brk = []
+	for i, poly in enumerate(route_np):
+		ln = []
+		broken = 0
+		for j in range(0, len(poly)):
+			if j < len(poly) - 1 :
+
+				vertical_prv = -1
+
+				if len(ln) > 0:
+					prv0 = ln[len(ln)-1][0]
+					prv1 = ln[len(ln)-1][1]
+
+					if prv0[1] == prv1[1] :
+						vertical_prv = 1
+					else:
+						vertical_prv = 0
+
+				p0 = poly[j]
+				p1 = poly[j+1]
+
+				ln.append([p0, p1])
+
+				vertical_cur = -1
+
+				if p0[1] == p1[1] :
+					vertical_cur = 1
+				else :
+					vertical_cur = 0
+
+				if vertical_prv != -1 and vertical_cur != -1 :
+					if vertical_prv != vertical_cur :
+						broken += 1
+
+		brk.append(broken)
+
+	brk_min = min(brk)
+	print('minimum broken count : ' + str(brk_min))
+
+	for i, poly in enumerate(route_np):
 		ln = []
 		col = []
-		for i in range(0, len(poly)):
-			if i < len(poly) - 1 :
-				p0 = poly[i]
-				p1 = poly[i+1]
-				ln.append([p0, p1])
-				col.append('lime')
-		lc = LineCollection(ln, colors=col, linewidths=1)
 
+		ln_style = "solid"
+		ln_width = 3
+		ln_alpha = 1.0
+
+		for j in range(0, len(poly)):
+			if j < len(poly) - 1 :
+				p0 = poly[j]
+				p1 = poly[j+1]
+				ln.append([p0, p1])
+				if brk[i] == brk_min :
+					col.append('lime')
+				else:
+					col.append('yellowgreen')
+					ln_style = "dotted"
+					ln_width = 1
+					ln_alpha = 0.1
+
+		lc = LineCollection(ln, colors=col, linewidths=ln_width, linestyle=ln_style, alpha=ln_alpha)
 		ax.add_collection(lc)
 
 	#
