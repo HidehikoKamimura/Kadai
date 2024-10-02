@@ -1,0 +1,138 @@
+\documentclass[12pt]{jarticle}
+\usepackage{amsmath}
+\usepackage{color}
+\begin{document}
+
+$n$ŒÂ‚ÌŠÏ‘ª’l $(\boldsymbol{x_1}, y1), \ldots, (\boldsymbol{x_n}, y_n)$
+
+\begin{equation}
+y_i = \boldsymbol{x_i^T\beta} + \varepsilon_i
+\end{equation}
+
+\begin{equation}
+\boldsymbol{x_i} = (x_{1i}, \ldots, x_{pi})
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\beta} = (\beta_1, \ldots, \beta_p)^T
+\end{equation}
+
+\begin{equation}
+y_i = x_{i1}\beta_1 + \cdots + x_{ip}\beta_p + \varepsilon_i
+\end{equation}
+
+
+\begin{equation}
+\boldsymbol{y} = (y_1, \ldots, y_n)^T
+\end{equation}
+
+\begin{equation}
+\boldsymbol{X} = (\boldsymbol{x_1}, \ldots, \boldsymbol{x_n})^T =
+\begin{bmatrix}
+x_{11}  &   \cdots  &   x_{p1} \\
+\vdots  &           &   \vdots \\
+x_{1n}  &   \cdots  &   x_{pn} \\
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{y} = \boldsymbol{X\beta} + \boldsymbol{\varepsilon}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\varepsilon} = (\varepsilon_1, \ldots, \varepsilon_n)^T
+\end{equation}
+
+\begin{equation}
+\displaystyle E[\boldsymbol{\varepsilon}] = \boldsymbol{0}
+\end{equation}
+
+\begin{equation}
+\displaystyle V[\boldsymbol{\varepsilon}] = \sigma^2\boldsymbol{I}
+\end{equation}
+
+\begin{equation}
+rank\boldsymbol{X} = p
+\end{equation}
+
+\begin{equation}
+y = \boldsymbol{x}\beta
+\end{equation}
+
+\begin{equation}
+\textcolor{blue}{
+\varepsilon_1 \quad \varepsilon_2 \quad \varepsilon_{n-1} \quad \varepsilon_n \quad \varepsilon
+}
+\end{equation}
+
+\begin{equation}
+x_1 \quad x_2 \quad x_{n-1} \quad x_n \quad x \quad \mathcal{M}(\boldsymbol{X})
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\widehat{\beta} = (X^TX)^{-1}X^Ty}
+\end{equation}
+
+\begin{align}
+\boldsymbol{e} & = \boldsymbol{y - X\widehat{\beta}} \\
+  & = \boldsymbol{[I-X(X^TX)^{-1}X^T]y} \\
+  & = \boldsymbol{[I-X(X^TX)^{-1}X^T]\varepsilon}
+\end{align}
+
+\begin{equation}
+\boldsymbol{\|e\|^2 = y^T[I-X(X^TX)^{-1}X^T]y}
+\end{equation}
+
+\begin{equation}
+E[\boldsymbol{\widehat{\beta}] = \boldsymbol{\beta}}
+\end{equation}
+
+\begin{equation}
+V[\boldsymbol{\widehat{\beta}}] \leq V[\boldsymbol{b}]
+\end{equation}
+
+\begin{equation}
+V[\boldsymbol{\widehat{\beta}}] = \sigma^2\boldsymbol{(X^TX)^{-1}}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{D_{n}(\widehat{\beta} - \beta)} \xrightarrow[n\to\infty]{\mathrm{d}} N(\boldsymbol{0}, \sigma^2\boldsymbol{R_{\infty}^{-1}})
+\end{equation}
+
+\begin{equation}
+\boldsymbol{A_{n}} = (a_{ij}) = \boldsymbol{X^TX}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{D_{n}} = diag(\sqrt{a_{11}^n}, \ldots, \sqrt{a_{pp}^n})
+\end{equation}
+
+\begin{equation}
+\boldsymbol{R_{n}} = \boldsymbol{D_{n}^{-1}A_{n}D_{n}^{-1}} \longrightarrow \boldsymbol{R_{\infty}}
+\end{equation}
+
+\begin{equation}
+s^2 = \frac{\boldsymbol{e^Te}}{n - p}
+\end{equation}
+
+\begin{equation}
+\hat{\sigma}^2 = \frac{\boldsymbol{e^Te}}{n}
+\end{equation}
+
+\begin{equation}
+E[\hat{\sigma}^2] = \frac{n-p}{n}\sigma^2 \rightarrow \sigma^2
+\end{equation}
+
+\begin{equation}
+V[s^2] = \frac{2\sigma^4}{(n-p)^2}tr\bar{P}_{X} = \frac{2\sigma^4}{n-p} > \frac{2\sigma^4}{n} = V[\hat{\sigma}^{2}]
+\end{equation}
+
+\begin{equation}
+\bar{P}_{X} = I - X(X^TX)^{-1}X^T
+\end{equation}
+
+\begin{equation}
+\textrm{Pr}\{ |X - \mu_{X}| > k\sigma_{X} \} \leq \frac{1}{k^2} \quad (k > 0)
+\end{equation}
+
+\end{document}

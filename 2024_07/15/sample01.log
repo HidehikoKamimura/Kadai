@@ -1,0 +1,1249 @@
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.11)  2 AUG 2024 14:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sample01.py
+(./sample01.py
+pLaTeX2e <2023-02-14>+1, based on
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 i
+     mport numpy as np
+? q
+OK, entering \batchmode...
+
+Overfull \hbox (49.75009pt too wide) in paragraph at lines 1--4
+[]\OT1/cmr/m/n/10 import
+ []
+
+
+Overfull \hbox (29.7223pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 numpy
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 np
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (18.63895pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 port
+ []
+
+
+Overfull \hbox (44.3334pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 scipy.stats
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (20.6667pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 stats
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (18.63895pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 port
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 mat-
+ []
+
+
+Overfull \hbox (58.88907pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 plotlib.pyplot
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 1--4
+\OT1/cmr/m/n/10 plt 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 f
+     rom matplotlib import rc
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (40.30562pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 from
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 mat-
+ []
+
+
+Overfull \hbox (28.33342pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 plotlib
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (18.63895pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 port
+ []
+
+
+Overfull \hbox (8.36111pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 rc 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 r
+     c('text', usetex=True)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (58.08342pt too wide) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/10 rc('text',
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 use-
+ []
+
+
+Overfull \hbox (45.58342pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 tex=True) 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 d
+     ef Nadaraya_Watson(x, Xi, Yi, h):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 def Nadaraya_
+                 Watson(x, Xi, Yi, h):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 9--15
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (137.35674pt too wide) in paragraph at lines 9--15
+\OT1/cmr/m/n/10 Nadaraya$[]\OML/cmm/m/it/10 atson\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 x; Xi; Yi; h\OT1/cmr/m/n/10 ) :
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 9--15
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (29.54169pt too wide) in paragraph at lines 9--15
+\OT1/cmr/m/n/10 []\OML/cmm/m/it/10 nw \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.88708pt too wide) in paragraph at lines 9--15
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 for\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 inzip\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Xi; Yi
+\OT1/cmr/m/n/10 ) :
+ []
+
+
+Overfull \hbox (16.28009pt too wide) in paragraph at lines 9--15
+\OML/cmm/m/it/10 u \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (20.71126pt too wide) in paragraph at lines 9--15
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (41.35538pt too wide) in paragraph at lines 9--15
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =hk[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.76747pt too wide) in paragraph at lines 9--15
+\OML/cmm/m/it/10 Rect\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16         n
+              w += y_i * k_u
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16         nw += y_
+                     i * k_u
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (32.50002pt too wide) in paragraph at lines 16--18
+[]\OT1/cmr/m/n/10 nw
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 16--18
+\OT1/cmr/m/n/10 +=
+ []
+
+
+Overfull \hbox (13.6071pt too wide) in paragraph at lines 16--18
+\OT1/cmr/m/n/10 y$[] \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (68.1565pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 k[]k:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/1
+0 )$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19     s
+           = sum(k)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (23.94444pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (30.88898pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 sum(k) 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21     i
+          f s == 0:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (25.83336pt too wide) in paragraph at lines 21--25
+[]\OT1/cmr/m/n/10 if
+ []
+
+
+Overfull \hbox (3.94444pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 ==
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 0:
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.91672pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 turn
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 0
+ []
+
+
+Overfull \hbox (18.3889pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 else:
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.91672pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 turn
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 nw
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 /
+ []
+
+
+Overfull \hbox (3.94444pt too wide) in paragraph at lines 21--25
+\OT1/cmr/m/n/10 s 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 d
+      ef Rect(u):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 26--31
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (36.25006pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 Rect(u):
+ []
+
+
+Overfull \hbox (9.72226pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 if(
+ []
+
+
+Overfull \hbox (27.8334pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 abs(u)
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 <=
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 1
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 ):
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.91672pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 turn
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 0.5
+ []
+
+
+Overfull \hbox (18.3889pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 else:
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.91672pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 turn
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 26--31
+\OT1/cmr/m/n/10 0 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 d
+      ef f(x):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 32--34
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (18.88896pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 f(x):
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.91672pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 turn
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 2
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 *
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 *
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 -
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/10 3 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 d
+      ef AddNoise(x):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...s(loc=0, scale = 0.3, size=x.size, random_
+                                                  state=0)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 35--38
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (58.11125pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 AddNoise(x):
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 xi
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (94.11134pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 stats.norm.rvs(loc=0,
+ []
+
+
+Overfull \hbox (20.61113pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 scale
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 0.3,
+ []
+
+
+Overfull \hbox (49.8334pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 size=x.size,
+ []
+
+
+Overfull \hbox (65.35542pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 random$[]\OML/cmm/m/it/10 tate \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (51.95503pt too wide) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 returnx \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (9.1604pt too wide) in paragraph at lines 35--38
+\OML/cmm/m/it/10 xi$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 d
+      ef Example_1_2(Xi, Yi, f_x, h, ax):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 def Example_
+                 1_2(Xi, Yi, f_x, h, ax):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.39 def Example_1_
+                   2(Xi, Yi, f_x, h, ax):
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.43 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 39--43
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (128.95856pt too wide) in paragraph at lines 39--43
+\OT1/cmr/m/n/10 Example$[][](\OML/cmm/m/it/10 Xi; Yi; f[]; h; ax\OT1/cmr/m/n/10
+ ) :
+ []
+
+
+Overfull \hbox (35.4017pt too wide) in paragraph at lines 39--43
+\OML/cmm/m/it/10 fn[]w \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (53.4389pt too wide) in paragraph at lines 39--43
+\OT1/cmr/m/n/10 []\OML/cmm/m/it/10 for[]inXi \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (201.56415pt too wide) in paragraph at lines 39--43
+\OML/cmm/m/it/10 fn[]w:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Nadaraya[]atson\
+OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; Xi; Yi; h\OT1/cmr/m/n/10 ))$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44     a
+          x.plot(Xi, Yi, 'b+')
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45     ax.plot(Xi, f_
+                       x, 'k--')
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.46     ax.plot(Xi, fn_nw, 'r_'
+                                )
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.47 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (67.22237pt too wide) in paragraph at lines 44--47
+[]\OT1/cmr/m/n/10 ax.plot(Xi,
+ []
+
+
+Overfull \hbox (13.05559pt too wide) in paragraph at lines 44--47
+\OT1/cmr/m/n/10 Yi,
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 44--47
+\OT1/cmr/m/n/10 'b+')
+ []
+
+
+Overfull \hbox (47.22237pt too wide) in paragraph at lines 44--47
+\OT1/cmr/m/n/10 ax.plot(Xi,
+ []
+
+
+Overfull \hbox (28.63892pt too wide) in paragraph at lines 44--47
+\OT1/cmr/m/n/10 f$[]\OML/cmm/m/it/10 ;[] k \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (108.70688pt too wide) in paragraph at lines 44--47
+\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ax:plot\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 Xi; fn[]w;[] r[]$ 
+ []
+
+
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [1]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     a
+          x.set_title('h={0:.2f}'.format(h))
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48     ax.set_
+                title('h={0:.2f}'.format(h))
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (86.75887pt too wide) in paragraph at lines 48--51
+[]\OT1/cmr/m/n/10 ax.set$[]\OML/cmm/m/it/10 itle\OT1/cmr/m/n/10 ([]\OML/cmm/m/i
+t/10 h \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (204.27177pt too wide) in paragraph at lines 48--51
+[][]\OML/cmm/m/it/10 :format\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 h\OT1/cmr/m/n/10 
+))\OML/cmm/m/it/10 ax:set[]label\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 x[]; fontsi
+ze \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (134.09814pt too wide) in paragraph at lines 48--51
+\OT1/cmr/m/n/10 13)\OML/cmm/m/it/10 ax:set[]label\OT1/cmr/m/n/10 ([]\OML/cmm/m/
+it/10 y[]; fontsize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 48--51
+\OT1/cmr/m/n/10 13)$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 d
+      ef main():
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (32.22232pt too wide) in paragraph at lines 52--53
+\OT1/cmr/m/n/10 main(): 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54     s
+          z = 100
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (28.38889pt too wide) in paragraph at lines 54--56
+[]\OT1/cmr/m/n/10 sz
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 100
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (84.02795pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 np.linspace(start=-
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 1,
+ []
+
+
+Overfull \hbox (41.72234pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 stop=2.1,
+ []
+
+
+Overfull \hbox (19.16672pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 num
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.27779pt too wide) in paragraph at lines 54--56
+\OT1/cmr/m/n/10 sz) 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57     f
+          _x = f(x)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57     f_
+           x = f(x)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (38.64581pt too wide) in paragraph at lines 57--59
+[]\OT1/cmr/m/n/10 f$[] =
+ []
+
+
+Overfull \hbox (35.28244pt too wide) in paragraph at lines 57--59
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 y \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (62.37923pt too wide) in paragraph at lines 57--59
+\OML/cmm/m/it/10 AddNoise\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 )
+$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60     f
+          ig, ax = plt.subplots(2, 2, sharex="col", sharey="row")
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/10 fig,
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 ax
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (62.88905pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 plt.subplots(2,
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 2,
+ []
+
+
+Overfull \hbox (60.91681pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 sharex="col",
+ []
+
+
+Overfull \hbox (65.66681pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 sharey="row") 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62     E
+          xample_1_2(x, y, f_x, 5, ax[0,0])
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62     Example_
+                 1_2(x, y, f_x, 5, ax[0,0])
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.62     Example_1_
+                   2(x, y, f_x, 5, ax[0,0])
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.63     Example_1_
+                   2(x, y, f_x, 1, ax[0,1])
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.64     Example_1_
+                   2(x, y, f_x, 0.1, ax[1,0])
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.65     Example_1_
+                   2(x, y, f_x, 0.01, ax[1,1])
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (566.31868pt too wide) in paragraph at lines 62--66
+[]\OT1/cmr/m/n/10 Example$[][](\OML/cmm/m/it/10 x; y; f[]; \OT1/cmr/m/n/10 5\OM
+L/cmm/m/it/10 ; ax\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0])\OML/
+cmm/m/it/10 Example[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; f[]; \OT1/cmr/m/
+n/10 1\OML/cmm/m/it/10 ; ax\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
+ 1])\OML/cmm/m/it/10 Example[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; f[]; \O
+T1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; ax\OT1/cmr
+/m/n/10 [1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0])\OML/cmm/m/it/10 Example[][]\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; f[]; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\O
+T1/cmr/m/n/10 01\OML/cmm/m/it/10 ; ax\OT1/cmr/m/n/10 [1\OML/cmm/m/it/10 ; \OT1/
+cmr/m/n/10 1])$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67     f
+          ig.suptitle(r'$Y_i = (2X_i^2 -X_i + 3) + \xi_i, \quad \xi_i \sim N...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (96.44049pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/10 fig.suptitle(r'$\OML/cmm/m/it/10 Y[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (30.22227pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 X[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.39182pt too wide) in paragraph at lines 67--68
+\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 3) +
+ []
+
+
+Overfull \hbox (40.40854pt too wide) in paragraph at lines 67--68
+\OML/cmm/m/it/10 ^^X[];  ^^X[] \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (65.9451pt too wide) in paragraph at lines 67--68
+\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cm
+m/m/it/10 :\OT1/cmr/m/n/10 3[])\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 i \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (51.6666pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 100)$',
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 font-
+ []
+
+
+Overfull \hbox (37.27785pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 size=16) 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69     p
+          lt.show()
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (64.22232pt too wide) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/10 plt.show() 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 i
+      f __name__ == "__main__":
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.71 if _
+         _name__ == "__main__":
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.71 if __
+          name__ == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.71 if __name__
+                 == "__main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.71 if __name__ == "__
+                       main__":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.71 if __name__ == "__main__
+                             ":
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+)
+! Emergency stop.
+<*> sample01.py
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 19 strings out of 474243
+ 335 string characters out of 5746674
+ 1925753 words of memory out of 5000000
+ 23011 multiletter control sequences out of 15000+600000
+ 561940 words of font info for 53 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 22i,5n,23p,166b,112s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on sample01.dvi (1 page, 1648 bytes).

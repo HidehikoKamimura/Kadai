@@ -1,0 +1,57 @@
+\documentclass[12pt]{jarticle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumitem}
+\usepackage{color}
+\begin{document}
+
+\begin{equation}
+F(x) = \int_{-\infty}^{x}p(t)dt
+\end{equation}
+
+\begin{equation}
+F_{n}(x) = \frac{1}{n}\sum_{i=1}^{n}I(X_{i} \leq x)
+\end{equation}
+
+\begin{equation}
+p(x) \approx \frac{F(x+h) - F(x-h)}{2h}
+\end{equation}
+
+\begin{align}
+p_n(x) & = \frac{F_{n}(x+h) - F_{n}(x-h)}{2h} \\
+        & = \frac{1}{nh}\sum_{i=1}^{n}K_0\left(\frac{X_{i} - x}{h}\right)
+\end{align}
+
+\begin{equation}
+K_0(u) = \frac{1}{2}I(|u| < 1)
+\end{equation}
+
+\begin{equation}
+p_n(x) = \frac{1}{nh}\sum_{i=1}^{n}K\left(\frac{X_{i} - x}{h}\right)
+\end{equation}
+
+\begin{description}[labelwidth=8em]
+\item[rectangular]  $\frac{1}{2}I(|u| \leq 1)$
+\item[triangular]   $(1 - |u|)I(|u| \leq 1)$
+\item[Epanechnikov] $\frac{3}{4}(1-u^2)I(|u| \leq 1)$
+\item[Gaussian] $\frac{1}{\sqrt{2\pi}}exp(-u^2/2)$
+\end{description}
+
+\begin{equation}
+\sum(\beta, L) = \left\{f : T \rightarrow \textbf{R}, | f^{(\ell)}(x) - f^{(\ell)}(x')| < L|x-x'|^{\beta-\ell}\right\}
+\end{equation}
+
+\begin{equation}
+\mathcal{P}(\beta, L) = \left\{p : p \geq 0, \int p(x)dx = 1, p \in \sum(\beta, L) \right\}
+\end{equation}
+
+\begin{equation}
+p \in \mathcal{P}
+\end{equation}
+
+\begin{equation}
+\frac{\partial}{\partial h} = 0
+\end{equation}
+
+
+\end{document}
